@@ -37,7 +37,7 @@ namespace PalindromeCheckerApp
 
         static void Check(string s, bool shouldBePalindrome)
         {
-            Console.WriteLine(IsPalindromeConvolutedHorrorCode(s) == shouldBePalindrome ? "pass" : "FAIL");
+            Console.WriteLine(IsPalindrome(s) == shouldBePalindrome ? "pass" : "FAIL");
         }
 
 
